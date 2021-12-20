@@ -1,0 +1,23 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Really basic one",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanonymous/discord-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanonymous/discord-bot/issues"
+  },
+  "homepage": "https://github.com/yanonymous/discord-bot#readme",
+  "dependencies": {
+    "discord": "^0.8.2",
+    "dotenv": "^10.0.0"
+  }
+}
