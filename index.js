@@ -2,7 +2,7 @@
 require('dotenv').config();
 const TOKEN = process.env.TOKEN;
 
-const PREFIX = 'YOG! ';
+const PREFIX = 'YOG!';
 
 // import discord.js
 const Discord = require('discord.js');
@@ -10,7 +10,7 @@ const Discord = require('discord.js');
 // login to discord
 const client = new Discord.Client({ intents: ['GUILDS', 'GUILD_MESSAGES'] });
 
-// discplay message when bot is ready
+// display message when bot is ready
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -27,7 +27,7 @@ client.on('message', msg => {
     // if the command is ping
     if (command === 'ping') {
         // send a message
-        msg.channel.send('pong');
+        msg.reply('Pong');
     }
 
 });
