@@ -89,7 +89,7 @@ client.on('message', msg => {
 });
 
 
-// playing songs
+// play songs
 
 client.once("ready", () => {
     console.log("Ready!");
